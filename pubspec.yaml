@@ -23,6 +23,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.3
+  flutter_svg: ^1.0.3
 
   # The following adds the shared pref as a dependency in your application
   shared_preferences: ^2.0.6
@@ -49,7 +50,7 @@ dependencies:
 
   # A flexible widget for user notification. Customize your text, button, duration, animations
   # and much more. For Android devs, it is made to replace Snackbars and Toasts.
-  another_flushbar: ^1.10.23
+  another_flushbar: 1.10.23
 
   # Material Dialog
   material_dialog: ^1.0.0-nullsafety.1
@@ -118,6 +119,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+  - family: Rawon
+    fonts:
+      - asset: assets/fonts/RawonDemo.ttf
   - family: ProductSans
     fonts:
     - asset: assets/fonts/Product-Sans-Regular.ttf
